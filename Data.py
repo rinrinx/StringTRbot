@@ -30,7 +30,7 @@ By @kamileecherch
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],,
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
         [
             InlineKeyboardButton("Help Command ❔", callback_data="help")       
         ],
