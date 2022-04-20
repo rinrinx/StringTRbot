@@ -21,7 +21,7 @@ By @kamileecherch
     # Home Button
     home_buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
     ]
 
     generate_button = [
@@ -31,10 +31,12 @@ By @kamileecherch
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton("✨ More Bots ✨", url="https://t.me/kamileecherch")],
         [
-            InlineKeyboardButton("Help Command ❔", callback_data="help")       
+            InlineKeyboardButton("Command Bot ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Bots ♥", url="https://t.me/kamileecherch")]
+        [InlineKeyboardButton("♥ Admin ♥", url="https://t.me/kamileecher")],
     ]
 
     # Help Message
